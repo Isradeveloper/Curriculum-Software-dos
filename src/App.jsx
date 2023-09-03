@@ -15,7 +15,6 @@ function App() {
           <div className="col-12 col-lg-3 d-flex justify-content-center align-items-center p-4">
             <div className="bg-danger rounded-circle" id='img-perfil' style={
               {
-                backgroundImage: "url('https://elcomercio.pe/resizer/QXIl8wJco9Raor4qtn7-vgHEsIA=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/J5TZJL65YBB2JN5TCPZBJVNJTQ.webp')",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover"
