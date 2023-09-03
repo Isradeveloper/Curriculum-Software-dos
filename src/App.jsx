@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {FaLocationDot} from 'react-icons/fa6'
-import {BsGithub} from 'react-icons/bs'
+import {BsGithub, BsFillEnvelopeFill, BsFillTelephoneFill} from 'react-icons/bs'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,14 +27,18 @@ function App() {
             <div className="col-12  d-flex flex-column">
             <span className='h1'>Israel David Trujillo Domínguez</span>
             <hr className='border-primary'/>
+            <h3>Professional profile</h3>
             <span>Ingeniero de sistemas altamente capacitado con una sólida formación técnica y experiencia probada en el desarrollo de software. Mi enfoque se centra en crear soluciones tecnológicas eficientes y escalables que resuelvan desafíos empresariales complejos. He trabajado en una variedad de proyectos, desde aplicaciones móviles hasta sistemas de gestión empresarial, y he demostrado habilidades en el ciclo completo de desarrollo de software, desde la concepción hasta la implementación y el mantenimiento. Mi pasión por la innovación y la resolución de problemas me impulsa a mantenerme actualizado con las últimas tendencias tecnológicas y metodologías ágiles.</span>
             </div>
-            <div className="col-12 p-4 d-flex justify-content-start align-items-center flex-column flex-lg-row" style={{height: "auto"}}>
+            <div className="col-12 p-4 d-flex justify-content-start align-items-center flex-column flex-xl-row" style={{height: "auto"}}>
               <div className='text-center d-flex align-items-center'>
                 <i><FaLocationDot className='me-3 text-primary2' size={25}/></i>
                   <span className='fw-bold fs-6'>Barranquilla, Colombia</span>
                 </div>
                 <a className='mx-5 mt-2 d-flex align-items-center' href="https://github.com/Isradeveloper" target='_blank'><BsGithub size={25} className='text-primary2'/></a>
+                <a className='mx-5 mt-2 d-flex align-items-center text-primary2 text-decoration-none' href="mailto:ingisraeltrujillo@gmail.com" target='_blank'><BsFillEnvelopeFill size={25} className='text-primary2 me-2'/>ingisraeltrujillo@gmail.com</a>
+                <i><BsFillTelephoneFill className='me-3 text-primary2' size={25}/></i>
+                  <span className='fw-bold fs-6'>3023691487</span>
             </div>
           </div>
         </div>
